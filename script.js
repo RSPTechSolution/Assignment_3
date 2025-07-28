@@ -29,6 +29,6 @@ form.addEventListener('submit', (e) => {
     if(name && !empty(name)){
         greetElement.innerText = "Hello, "+name;
     }else{
-        statusMessage.innerText = "Please enter your name to Greet!";
+        statusMessage.innerText = "Please enter your name to Greet! ❌";
     }
 })
