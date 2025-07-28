@@ -24,6 +24,8 @@ const nameInput = form.querySelector('input[name="name"]');
 const greetElement = document.getElementById('greet-name');
 form.addEventListener('submit', (e) => {
     e.preventDefault();
-    const name = ", "+nameInput.value;
-    greetElement.innerText = "Hello"+name;
+    const name = nameInput.value;
+    if(name && !empty(name)){
+        greetElement.innerText = "Hello, "+name;
+    }
 })
