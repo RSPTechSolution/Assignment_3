@@ -62,4 +62,5 @@ button{
     background-color: #333;
     color: cyan;
     border: 0;
+    cursor: pointer;
 }
