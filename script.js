@@ -29,6 +29,8 @@ form.addEventListener('submit', (e) => {
     if(name && !empty(name)){
         greetElement.innerText = "Hello, "+name;
     }else{
+        statusMessage.style.backgroundColor = "#f8d7da";
+        statusMessage.style.border = "1px solid #f5c6cb";
         statusMessage.innerText = "Please enter your name to Greet! ❌";
     }
 })
