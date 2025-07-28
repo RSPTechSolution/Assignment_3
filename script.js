@@ -27,6 +27,7 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
     const name = nameInput.value;
     if (name !== "") {
+        statusMessage.innerText = "";
         greetElement.innerText = "Hello, "+name;
     }else{
         statusMessage.style.backgroundColor = "#f8d7da";
