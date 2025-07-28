@@ -31,6 +31,6 @@ form.addEventListener('submit', (e) => {
     }else{
         statusMessage.style.backgroundColor = "#f8d7da";
         statusMessage.style.border = "1px solid #f5c6cb";
-        statusMessage.innerText = "Please enter your name to Greet! ❌";
+        statusMessage.innerText = "⚠️ Please enter your name to Greet!";
     }
 })
